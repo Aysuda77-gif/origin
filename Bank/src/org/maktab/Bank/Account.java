@@ -10,6 +10,8 @@ public class Account {
         this.balance=balance;
         this.branch=new Branch(code,city,rate);
     }
+    /************* THIS IS CHANGED ACCOUNT *********************/
+    
     /***************** SETTER *****************/
     public void setAccountNumber(String accountNumber) {
         this.accountNumber = accountNumber;
